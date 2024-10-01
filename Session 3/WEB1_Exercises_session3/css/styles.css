@@ -1,0 +1,72 @@
+body {
+    background-color: greenyellow;
+}
+
+.wrapper {
+    width: 1280px;
+    margin: auto;
+
+}
+
+div {
+    float: left;
+    padding: 15px;
+    border-style: solid;
+    border-collapse: collapse;
+    margin: auto;
+    }
+
+.crocodile {
+    height: 300px;
+    width: 600px;
+    background-color: green;
+}
+
+.elephant {
+    height: 300px;
+    width: 600px;
+    background-color: lightgray;
+}
+
+.giraffe {
+    height: 300px;
+    width: 600px;
+    background-color: yellow;
+    clear: left;
+
+}
+
+.tiger {
+    height: 300px;
+    width: 600px;
+    background-color: orange;
+    float: left;
+}
+
+.animal_main {
+    height: 150px;
+    float: left;
+    padding: 15px;
+}
+
+.description {
+    p {
+        float: left;
+    }
+}
+
+table {
+    clear: both;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+table th {
+    border-style: solid;
+}
+
+table td {
+    border-style: solid;
+}
+
+
