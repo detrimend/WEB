@@ -54,13 +54,17 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    padding: 15px;
+}
+
 
 
 ul {
     font-size: 1.2em;
 }
 
-img {
+.portrait {
     display: block;
     height: 100%;
     margin-left: auto;
@@ -73,7 +77,6 @@ img {
     background-color: #7300ff;
 }
 
-/* Style the topnav links */
 .navbar a {
     float: left;
     display: block;
@@ -83,8 +86,44 @@ img {
     text-decoration: none;
 }
 
-/* Change color on hover */
 .navbar a:hover {
     background-color: #ddd;
     color: black;
+}
+
+.townImages {
+    margin: 15px;
+    border: 10 px;
+    border-style: solid;
+    border-collapse: collapse;
+    clear: left;
+    padding: 15px;
+    overflow: auto;
+    height: 332px;
+}
+
+.viaImages {
+    margin: 15px;
+    border: 10 px;
+    border-style: solid;
+    border-collapse: collapse;
+    float: right;
+    padding: 15px;
+    overflow: auto;
+    width: 45%;
+}
+
+.viaImages2 {
+    margin: 15px;
+    border: 10 px;
+    border-style: solid;
+    border-collapse: collapse;
+    clear: left;
+    padding: 15px;
+    overflow: auto;
+    width: 45%;
+}
+
+p {
+    padding: 15px;
 }
