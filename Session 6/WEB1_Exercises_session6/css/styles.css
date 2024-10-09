@@ -1,0 +1,20 @@
+/* This selector targets all class names containing col- */
+[class*= "col-"] {
+    background-color: #AAAAAA;
+    border: 1px solid black;
+}
+
+body {
+    background-color: green;
+    padding: 20px;
+}
+
+#nav {
+    background-color: orange;
+}
+
+#text {
+    background-color: beige;
+    border-style: none;
+}
+
