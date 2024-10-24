@@ -1,0 +1,14 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#jumbotron {
+    background-color: #2FAF1C;
+    padding: 20px;
+}
+
+#box {
+    background-color: lightgray;
+    border-radius: 5px ;
+    border-color: black;
+}
