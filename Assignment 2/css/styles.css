@@ -2,6 +2,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+
 #jumbotron {
     background-color: #2FAF1C;
     padding: 20px;
@@ -9,6 +10,19 @@ body {
 
 #box {
     background-color: lightgray;
-    border-radius: 5px ;
+    border-radius: 5px;
     border-color: black;
+    padding: 2%;
+}
+
+#outline {
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+    padding: 5px;
+}
+
+.staff_img {
+    overflow: auto;
+    width: 100%;
 }
