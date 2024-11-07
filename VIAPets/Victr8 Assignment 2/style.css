@@ -1,0 +1,80 @@
+    /* Styling af header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: lightgreen;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Logoet i venstre side af headeren */
+.logo {
+    font-size: 30px;
+    height: 20px;
+    width: 90%;
+}
+
+.Vialogo{
+    font-size: 20%;
+    height: 30%;
+    width: 10%;
+}
+
+/* Adds padding around the entire container */
+.carousel-container {
+    display: flex;
+    justify-content: center; /* Center the carousel and news box */
+    align-items: flex-start; /* Align the news box to the top of the carousel */
+    padding: 20px; /* Space from edges */
+    gap: 20px; /* Space between carousel and news box */
+}
+
+@media (max-width: 1024px){
+    .carousel-container{
+        flex-direction: column;
+    }
+    .news-box{
+        margin-top: auto;
+        
+    }
+}
+
+.carousel-wrapper {
+    width: 100%; /* Carousel width */
+}
+
+
+.news-box {
+    width: 25%; /* Width of the news box */
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 8%;
+    box-shadow: 0 4px 8px rgba(0,0,0,1
+    );
+    height: auto;
+}
+
+.news-box h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1024px) {
+    .news-box {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+footer {
+    display: block;
+    background-color: lightgreen;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+  }
