@@ -1,0 +1,33 @@
+div {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    height: 100px;
+    width: 100px;
+}
+
+#box1 {
+    background-color: green;
+    float: left;
+}
+
+#box2 {
+    background-color: blue;
+    float: right;
+}
+
+#box3 {
+    background-color: red;
+    clear: both;
+    margin: auto;
+}
+
+#box4 {
+    background-color: purple;
+    float: left;
+}
+
+#box5 {
+    background-color: orange;
+    float: right;
+}

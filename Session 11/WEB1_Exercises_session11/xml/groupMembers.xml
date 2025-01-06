@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <person eyecolor="greenishblueish">
+    <firstname>Rasmus</firstname>
+    <lastname>Duus</lastname>
+    <birthday>
+      <day>19</day>
+      <month>4</month>
+      <year>2001</year>
+    </birthday>
+    <nationality>Denmark</nationality>
+    <email>342727@via.dk</email>
+  </person>
+  <person eyecolor="greyblue">
+    <firstname>Martin</firstname>
+    <lastname>Andersen</lastname>
+    <birthday>
+      <day>69</day>
+      <month>420</month>
+      <year>1991</year>
+    </birthday>
+    <nationality>Denmark</nationality>
+    <email>hellomartin@via.dk</email>
+  </person>
+  <person eyecolor="brown">
+    <firstname>Victor</firstname>
+    <lastname>Oksen</lastname>
+    <birthday>
+      <day>11</day>
+      <month>9</month>
+      <year>2001</year>
+    </birthday>
+    <nationality>Denmark</nationality>
+    <email>explodinghog@via.dk</email>
+  </person>
+  <person eyecolor="blue">
+    <firstname>Victor</firstname>
+    <lastname>Marx</lastname>
+    <birthday>
+      <day>8</day>
+      <month>8</month>
+      <year>8888</year>
+    </birthday>
+    <nationality>Denmark</nationality>
+    <email>xxxxxx@via.dk</email>
+  </person>
+</root>
